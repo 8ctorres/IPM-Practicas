@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 18:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: controller.py:48
+msgid "Ha ocurrido un error en el servidor"
+msgstr ""
+
+#: model.py:11
+msgid "do"
+msgstr ""
+
+#: model.py:12
+msgid "do♯/re♭"
+msgstr ""
+
+#: model.py:13
+msgid "re"
+msgstr ""
+
+#: model.py:14
+msgid "re♯/mi♭"
+msgstr ""
+
+#: model.py:15
+msgid "mi"
+msgstr ""
+
+#: model.py:16
+msgid "fa"
+msgstr ""
+
+#: model.py:17
+msgid "fa♯/sol♭"
+msgstr ""
+
+#: model.py:18
+msgid "sol"
+msgstr ""
+
+#: model.py:19
+msgid "sol♯/la♭"
+msgstr ""
+
+#: model.py:20
+msgid "la"
+msgstr ""
+
+#: model.py:21
+msgid "la♯/si♭"
+msgstr ""
+
+#: model.py:22
+msgid "si"
+msgstr ""
+
+#: view.py:20
+msgid "Xazam"
+msgstr ""
+
+#: view.py:26
+msgid "Seleccionar intervalo:"
+msgstr ""
+
+#: view.py:34 viewresults.py:116
+msgid "Segunda menor (2m)"
+msgstr ""
+
+#: view.py:35 viewresults.py:117
+msgid "Segunda mayor (2M)"
+msgstr ""
+
+#: view.py:36 viewresults.py:118
+msgid "Tercera menor (3m)"
+msgstr ""
+
+#: view.py:37 viewresults.py:119
+msgid "Tercera mayor (3M)"
+msgstr ""
+
+#: view.py:38 viewresults.py:120
+msgid "Cuarta justa (4j)"
+msgstr ""
+
+#: view.py:39 viewresults.py:121
+msgid "Cuarta aumentada (4aum)"
+msgstr ""
+
+#: view.py:40 viewresults.py:122
+msgid "Quinta justa (5j)"
+msgstr ""
+
+#: view.py:41 viewresults.py:123
+msgid "Sexta menor (6m)"
+msgstr ""
+
+#: view.py:42 viewresults.py:124
+msgid "Sexta mayor (6M)"
+msgstr ""
+
+#: view.py:43 viewresults.py:125
+msgid "Séptima menor (7m)"
+msgstr ""
+
+#: view.py:44 viewresults.py:126
+msgid "Séptima mayor (7M)"
+msgstr ""
+
+#: view.py:45 viewresults.py:127
+msgid "Octava (8a)"
+msgstr ""
+
+#: view.py:67
+msgid "Buscar"
+msgstr ""
+
+#: viewresults.py:13
+msgid "Xazam - Resultados"
+msgstr ""
+
+#: viewresults.py:20
+msgid "ascendente"
+msgstr ""
+
+#: viewresults.py:22
+msgid "descendente"
+msgstr ""
+
+#: viewresults.py:28
+msgid "Para el intervalo {} {}, un ejemplo sería:"
+msgstr ""
+
+#: viewresults.py:36 viewresults.py:138
+msgid "Canciones representativas del intervalo:"
+msgstr ""
+
+#: viewresults.py:51 viewresults.py:139
+msgid "Volver"
+msgstr ""
+
+#: viewresults.py:57
+msgid "Ver más"
+msgstr ""
+
+#: viewresults.py:106
+msgid "Escuchar"
+msgstr ""
+
+#: viewresults.py:131
+msgid "Esperando respuesta del servidor..."
+msgstr ""
+
+#: viewresults.py:132
+msgid "Cancelar"
+msgstr ""

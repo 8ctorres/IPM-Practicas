@@ -1,0 +1,184 @@
+*{
+  font-weight: 400;
+}
+
+body {
+    margin: 2.5% auto;
+    padding: 0;
+    width: 95%;
+    font-family: "Roboto";
+}
+
+div#wrapper {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    font-weight: 500;
+    background-color: #FF5E5E;
+    padding: 10px;
+    border: 1px solid #800000;
+}
+
+header h1{
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+#detective_pikachu {
+    width: 25%;
+}
+
+.msg_error{
+  background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, rgb(243, 132, 132) 5px,rgb(243, 132, 132) 10px),
+         repeating-linear-gradient(to right, #800e0e, #800e0e 5px,rgb(243, 132, 132) 5px,rgb(243, 132, 132) 10px);
+  border: 1px solid #800000;
+  margin: auto;
+}
+
+.msg_error p{
+  text-align: left;
+  width: 35%;
+  background-color: #FACF5A;
+  border-radius: 10px;
+  padding: .5em 1em;
+  margin: 1.5em auto;
+  border: 1px solid #800000;
+}
+
+.resultados_busqueda{
+  border: 1px solid #800000;
+  display: flex;
+  background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #88f384 5px,#88f384 10px),
+         repeating-linear-gradient(to right, #33c249, #33c249 5px,#88f384 5px,#88f384 10px);
+  background-size: 40.00px 40.00px;
+}
+
+.resultados_busqueda img{
+  border: 3px solid rgb(172, 128, 48);
+  border-radius: 10px;
+  background-color: rgb(220, 236, 205);
+  width: 30%;
+  height: 30%;
+  padding: 0.25em;
+  margin: auto 0.25em;
+}
+
+.pokemon_info{
+  width: 50%;
+  padding: 1em;
+}
+
+#pokemon_id_name, #pokemon_fisico{
+  background-color: #FACF5A;
+  border-radius: 10px;
+  padding: 0.2em 1em;
+  margin: 1em auto;
+}
+
+#tipo1, #tipo2{
+  border-radius: 2px;
+  border: 2px solid rgb(0, 0, 0);
+  height: 100%;
+  margin: 0.25em;
+  text-align: center;
+  padding: 0.25em 0.5em;
+}
+
+#resultados_avanzados{
+  border: 1px solid #800000;
+  background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #49BEB7 5px,#49BEB7 10px),
+         repeating-linear-gradient(to right, #085F63, #085F63 5px,#49BEB7 5px,#49BEB7 10px);
+  background-size: 40.00px 40.00px;
+}
+
+#resultados_avanzados .pokemon_sprite_avanzado{
+  border: 3px solid rgb(172, 128, 48);
+  border-radius: 10px;
+  background-color: rgb(220, 236, 205);
+  width: 20%;
+  padding: 0.05em;
+  margin: auto .5em;
+}
+
+.pokemon_id_name_avanzado{
+  background-color: #FACF5A;
+  border-radius: 10px;
+  padding: 0.1em 0.5em;
+  margin: 0.5em;
+  height: 40%;
+}
+
+.a_lupita{
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  padding: 0.15em;
+  margin: 0.5em;
+  width: 12%;
+}
+
+.lupita{
+  width: 100%;
+}
+
+.pokemon_matched{
+  display: flex;
+  align-items: center;
+  margin: 0.25em 0.5em;
+}
+
+.campos_busqueda {
+  text-align: center;
+  background-image: linear-gradient(
+    180deg,
+  #ff9f9f 25%,
+  #ffe0e0 25%,
+  #ffe0e0 50%, 
+  #ff9f9f 50%, 
+  #ff9f9f 75%, 
+  #ffe0e0 75%, 
+  #ffe0e0 100%);
+  background-size: 40.00px 40.00px;
+  padding: 10px;
+  border: 1px solid #800000;
+}
+        
+footer.creditos div {
+  background-color: #FF5E5E;
+  border: 1px solid #800000;
+  padding: 10px;
+  text-align: center;
+}
+        
+footer.creditos div p{
+  font-weight: 300;
+  font-size: small;
+  font-style: italic;
+}
+        
+.button_pokedex {
+  margin: 1em auto;
+  width: 50%;
+  background-color: #40bf40;
+  color: white;
+  font-weight: 500;
+  font-size: large;
+  border-radius: 10px;
+  padding: 1em 0.5em;
+}
+
+#busqueda_simple{
+  padding: 0.5em 0.25em;
+}
+
+.form_pokedex{
+  margin-top: 3%;
+}
+
+.form_pokedex input{
+  padding: 0.7em 1em;
+  border-radius: 10px;
+  width: 70%;
+  background-color: #ffe8e8;
+}

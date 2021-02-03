@@ -1,0 +1,91 @@
+#detective_pikachu {
+  width: 20%;
+}
+
+.resultados_busqueda img{
+width: 25%;
+height: 25%;
+margin: auto 1em;
+}
+
+.pokemon_info{
+width: 70%;
+}
+
+#pokemon_types{
+display: flex;
+}
+
+#tipo1, #tipo2{
+margin: 0.5em;
+padding: 0.5em 1em;
+}
+
+#resultados_avanzados .pokemon_sprite_avanzado{
+width: 15%;
+padding: 0.15em;
+margin: auto 1em auto 22%;
+}
+
+.pokemon_id_name_avanzado{
+padding: 0.2em 1em;
+margin: 1em;
+}
+
+.a_lupita{
+margin: 1em;
+width: 6%;
+}
+
+.pokemon_matched{
+margin: 1em;
+}
+
+.form_pokedex{
+margin: auto 0;
+width: 50%;
+}
+
+.button_pokedex{
+margin: auto 0.5em;
+width: 25%;
+height: 4em;
+padding: 0.5em;
+}
+
+.form_pokedex input{
+width: 80%;
+height: 4em;
+}
+
+.campos_busqueda{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 1.5em 0;
+}
+
+#campos_busqueda_avanzada{
+padding: 1em 0;
+}
+
+.inputs_avanzados{
+width: 50%;
+}
+
+.inputs_avanzados form{
+margin: 1em auto;
+width: 100%;
+}
+
+@media screen and (min-width: 1000px){
+#detective_pikachu {
+    width: 150px;
+}
+}
+
+@media screen and (min-width: 1200px){
+.resultados_busqueda img{
+  margin: 1em;
+}
+}

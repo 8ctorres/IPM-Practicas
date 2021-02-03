@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Detective APIkachu</title>
+        
+        <link rel="icon" href="images/pika.png">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700&display=swap" rel="stylesheet"> 
+
+        <link href="css/mobile_style.css" rel="stylesheet" type = "text/css">
+        <link href="css/desktop_style.css" rel="stylesheet" type = "text/css" media = "screen and (min-width : 700px)">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Detective APIkachu</h1>
+                <a href=""><img id="detective_pikachu" src="images/pika.png" alt="Una foto del detective Pikachu sentado en una silla tomando un café"></a>
+            </header>
+            <main>
+                <div id="wrapper_resultados" style="display:none;">
+                    <header class="header_pokedex ">
+                        Pokédex: Resultados
+                    </header>
+                    <div class="resultados_busqueda" id="result">
+                        <img id="pokemon_sprite" src="images/pikachu_buscando.jpg" alt="Sprite del Pokémon">
+                        <div class="pokemon_info">
+                            <div id="pokemon_id_name">
+                                <p>ID</p>
+                                <p>Nombre</p>
+                            </div>
+                            <div id="pokemon_types">
+                                <p id="tipo1">Tipo 1</p>
+                                <p id="tipo2">Tipo 2</p>
+                            </div>
+                            <div id="pokemon_fisico">
+                                <p>Estatura</p>
+                                <p>Peso</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="wrapper_resultados_avanzados" style="display:none;">
+                    <header class="header_pokedex_avanzada">
+                        Pokédex: Resultados avanzados
+                    </header>
+                    <div id="resultados_avanzados">
+                    </div>
+                </div>
+                <div class="msg_error" id="error_busqueda_simple" style="display:none;">
+                    <p> Error<br/><br/>
+                        · El ID o nombre del pokémon no existen</p>
+                </div>
+                <div class="msg_error" id="error_busqueda_avanzada" style="display:none;">
+                    <p> Error<br/><br/>
+                        · No hay pokémon que coincidan con los parámetros</p>
+                </div>
+                <div class="msg_error" id="error_red" style="display:none;">
+                    <p>Error en la comunicación con el servidor</p>
+                </div>
+                <header class="header_pokedex">
+                    Pokédex: Búsqueda simple
+                </header>
+                <div class="main_pokedex">
+                    <div class="campos_busqueda">
+                        <form class="form_pokedex">
+                            <input type="text" id="id_or_name" class="pokedex_input" name="id_or_name" placeholder="Nombre o ID del Pokémon">
+                        </form>
+                        <button id="busqueda_simple" class="button_pokedex">Buscar en la Pokédex</button>
+                    </div>
+                </div>
+                <header class="header_pokedex">
+                    Pokédex: Búsqueda avanzada
+                </header>
+                <div class="main_pokedex">
+                    <div class="campos_busqueda" id="campos_busqueda_avanzada">
+                        <div class="inputs_avanzados">
+                            <form class="form_pokedex">
+                                <input type="text" list="lista_iniciales" name="iniciales" id="iniciales" class="pokedex_input" placeholder="Iniciales del Pokémon">
+                                <datalist id="lista_iniciales">
+                                    <option value="ABC">
+                                    <option value="DEF">
+                                    <option value="GHI">
+                                    <option value="JKL">
+                                    <option value="MNO">
+                                    <option value="PQR">
+                                    <option value="STU">
+                                    <option value="VWX">
+                                    <option value="YZ">
+                                </datalist>
+                            </form>
+                            <form class="form_pokedex">
+                                <input list="tipos" name="tipo" id="tipo" class="pokedex_input" type="text" placeholder="Tipo del Pokémon">
+                                <datalist id="tipos">
+                                    <option value="Normal">
+                                    <option value="Lucha">
+                                    <option value="Volador">
+                                    <option value="Veneno">
+                                    <option value="Tierra">
+                                    <option value="Roca">
+                                    <option value="Bicho">
+                                    <option value="Fantasma">
+                                    <option value="Acero">
+                                    <option value="Hielo">
+                                    <option value="Fuego">
+                                    <option value="Agua">
+                                    <option value="Planta">
+                                    <option value="Siniestro">
+                                    <option value="Psíquico">
+                                    <option value="Dragón">
+                                    <option value="Eléctrico">
+                                    <option value="Hada">
+                                </datalist>
+                            </form>
+                        </div>
+                        <button id="busqueda_avanzada" class="button_pokedex">Búsqueda Avanzada</button>
+                    </div>
+                </div>
+            </main>
+            <footer class="creditos">
+                <div>
+                    <p>Interfaces Persoa Máquina. Curso 2020-21. FIC - UDC</p>
+                    <p>Ismael Verde - Carlos Torres</p>
+                </div>
+            </footer>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
